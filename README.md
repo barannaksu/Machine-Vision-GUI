@@ -19,4 +19,18 @@ Project Structure
 │── yolov8n.pt            # YOLOv8 pretrained model
 │── unet_carvana_cpu.pth  # U-Net pretrained weights
 
+1. Create Environment
+   Python 3.9+ is recommended. Install dependencies:
 pip install -r requirements.txt
+
+2. Model Weights
+   Place pretrained weights (yolov8n.pt, padim_bottle.pth, unet_carvana_cpu.pth) in the project directory.
+   ImageNet class labels are included as imagenet_classes.txt.
+
+3. Usage
+   Run the GUI with:
+python 23568032.py
+
+Note: Distributed under the MIT License.
+
+
